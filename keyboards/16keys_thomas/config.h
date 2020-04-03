@@ -45,6 +45,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // Bootmagic config
 #define BOOTMAGIC_KEY_SALT KC_A
+#define BOOTMAGIC_KEY_EEPROM_CLEAR KC_C
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION ROW2COL
@@ -53,5 +54,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define UNICODE_SELECTED_MODES UC_LNX, UC_WIN, UC_OSX
 #define UNICODE_CYCLE_PERSIST false
+#define OLED_DISPLAY_128X64
 
 #endif
